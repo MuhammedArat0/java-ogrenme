@@ -42,7 +42,8 @@ class KasaDongusu {
                     System.out.println("Kartla ödendiği için uygulanan indirim: " + kartIndirimi + " TL");
                     System.out.println("İndirimden sonra ödenen toplam tutar: " + indirimliFiyat + " TL");
               } default -> System.out.println("Geçersiz seçim!");
-          } System.out.print("Başka müşteri var mı? (1: Evet, 0: Hayır): ");
+          } 
+            System.out.print("Başka müşteri var mı? (1: Evet, 0: Hayır): ");
             musteriVarmi = input.nextInt();
             input.nextLine();
       } System.out.println("Gün sonu. Kasa kapandı.");

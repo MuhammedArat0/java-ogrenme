@@ -9,9 +9,9 @@ class EtiketMakinesi {
             System.out.println("Stok: 5, İstenen: 3 -> Yetersiz stok!");
         }
         if (stokYeterliMi(2, 3)){
-            System.out.println("Stok: 2, İstenen: 3 -> Yetersiz stok!");
-        } else {
             System.out.println("Stok: 2, İstenen: 3 -> Satış yapılabilir.");
+        } else {
+            System.out.println("Stok: 2, İstenen: 3 -> Yetersiz stok!");
         }
     }
     static void etiketBas(String ad, double fiyat, int indirimYuzdesi){
